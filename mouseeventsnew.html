@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+
+
+</head>
+<body>
+    <button ondblclick="myFunction()">
+        double click me
+    </button>
+</body>
+<script>
+    function myfunction()
+    console.log("double clicked");
+
+</script>
+<script>
+    function myFunction() {
+        console.log("Double clicked");
+    }
+
+    function onClickFunction() {
+        console.log("Button clicked");
+    }
+
+    function onMouseOverFunction() {
+        console.log("Mouse over the button");
+    }
+</script>
+
+<main><img src="" alt=""></main>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: .2s linear;
+        font-family: "Poppins",sans-serif;
+    }
+
+    body{
+        background: #93caa3;
+background-image:url("https://png.pngtree.com/background/20210711/original/pngtree-elegant-light-blue-line-background-picture-image_1138823.jpg");
+    }
+
+    .wrapper{
+        margin: 10px auto;
+        padding: 0 10%;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    h1{
+        color: #fff;
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 15px;
+        text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+
+    .box{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .box img{
+        height: 70px;
+    }
+
+    .box h3{
+        color:#444;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .box p{
+        color: #777;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .btn{
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 17px;
+        margin-top: 10px;
+        padding: 8px 15px;
+        background: #333;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .btn:hover{
+        letter-spacing: 1px;
+    }
+
+    .box:hover{
+        transform: scale(1.03);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width:770px){
+        .wrapper{
+            padding:20px;
+        }
+
+    }
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+
+}
+
+body
+{
+background-size:cover;
+background-position:center;
+box-sizing:border-box;
+font-family:sans-serif;
+height:auto;
+background-color:#cc99c6;
+background-image:url("https://us.123rf.com/450wm/guingnm/guingnm2001/guingnm200100049/139579545-delicate-purple-watercolor-background-in-pastel-colors-purple-background-with-paper-texture-sunset.jpg");
+}
+
+img{
+width:100%;
+}
+
+.menubar{
+background:purple;
+text-align: center;
+height:130px;
+position:fixed;
+width:100%;
+padding-top:-30px;
+margin-top:-30px;
+}
+.menubar ul{
+list-style:none;
+display:inline-flex;
+color:white;
+margin-top:20px;
+}
+.menubar ul li{
+width:120px;
+margin:15px;
+padding:15px;
+}
+.menubar ul li a{
+text-decoration: none;
+color:white;
+}
+ .menubar ul li:hover
+{
+background:#2bab0d;
+border-radius:3px;
+}
+
+.menubar .fa{
+margin-right:8px;
+}
+
+.sub-menu-1{
+display:none;
+}
+
+.menubar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background:rgb(0,100,0);
+margin-top:15px;
+margin-left:-15px;
+
+}
+
+.menubar ul li:hover .sub-menu-1 ul{
+display:block;
+margin:10px;
+}
+
+
+.menubar ul li:hover .sub-menu-1 ul li{
+width:150px;
+padding:10px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+
+
+.menubar ul li:hover .sub-menu-1 ul li:last-child{
+border-bottom: none;
+}
+
+
+.menubar ul li:hover .sub-menu-1 ul li a:hover{
+color:#b2ff00;
+}
+
+.sub-menu-2{
+display:none;
+margin-left:750px;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2
+{
+
+display:block;
+position:absolute;
+background:rgb(0,100,0);
+margin-top:-50px;
+margin-left:150px;
+}
+
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul{
+display:block;
+margin:10px;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li{
+width:150px;
+padding:10px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li:last-child{
+border-bottom: none;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 ul li a:hover{
+color:#b2ff00;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height:25px;
+  border-radius: 50%;
+}
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.footer{
+background-color:#cc99c6;
+text-align:left;
+padding-bottom:20px;
+}
+td{
+padding-right:105px;
+line-height:25px;
+padding-left:100px;
+text-align:center;
+}
+th{
+padding-top:40px;
+text-align:center;
+}
+<div  class="footer">
+<footer>
+<table>
+<tr> 
+<th>LINKS</th>
+<th>CONTACT US</th>
+<th>LOCATION</th>
+<th>REACH US</th>
+</tr>
+<tr>
+<td>About<br>mouse events<br><br>unique calculator<br>form design<br>Applications<br></td>
+<td>Nearby Amrita School of Engineering<br>
+    Choodasandra<br>
+ Email:sanvievents123@gmail.com<br>
+<img src="" alt="Avatar" class="avatar">
+<img src=""
+alt=Avatar" class="avatar">
+<img src=""
+alt=Avatar" class="avatar">
+<a href="mailto:akhilathirumalaraju@gmail.com"><img src="https://i.pinimg.com/564x/d5/96/65/d596650610d93c05587f4bc6ee39bfe5.jpg"alt="mail" class="avatar" ></a>
+</td><td>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1982712182603!2d77.67573949999999!3d12.8949688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1339d7500cd3%3A0x4b4fbdff03bfee09!2sAmrita%20School%20of%20Engineering!5e0!3m2!1sen!2sin!4v1687786957876!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</td>
+
+
+<td>Akhila<br><i class="fa fa-phone">  +919876543210</i><br>
+Niharika<br><i class="fa fa-phone">  +919988776655</i><br>
+Vaishnavi<br><i class="fa fa-phone">  +918811223355</i><br>
+Shresta<br><i class="fa fa-phone">  +919876124532</i><br>
+</tr>
+</table>
+</footer>
+</div>
+
+
+</style>
+<body>
+<div class="menubar">
+<ul>
+<li class="active"><a href="DROPDOWNMENU.html"><i class="fa fa-home"></i>About</a></li>
+<li><a href="aboutus.html"><i class="fa fa-user"></i>Mouse events</a></li>
+<li><a href="servicesshresta.html"><i class="fa fa-clone"></i>Unique calculator</a></li>
+<li><a href="#"><i class="fa fa-code"></i>Form design</a>
+
+<div class="sub-menu-1">
+    <ul>
+        <li><a href="#">ExclusiveWedding<br>Deals</a> 
+
+</div>
+</li>
+       
+       <li><a href="#">applications</a> 
+
+</li>
+
+      
+        <li><a href="entertainment.html"></a></li>
+
+
+     </ul>
+</div>
+
+
+</li>
+
+<li><a href="#"><i class="fa fa-camera"></i>Applications</a>
+
+</div>
+</li>
+
+
+
+</ul>
+</div>
+<main>
+<img src="https://www.blackdiamondcaterer.com/wp-content/uploads/2021/08/wedding-catering-services-kolkata2.jpg" style="height:800px;">
+</main>
+
+
+    <div class="wrapper">
+        <h1>Our Services</h1>
+        <div class="container">
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1552783160-27bfdb2625d5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmFjdG9yeXxlbnwwfHwwfHx8MA==g">
+                <h3>Manufacturing </h3>
+                <p>The manufacturer would be required to pay a tax of INR 55; however, under GST he can set some of his tax off as he has already paid it while purchasing the raw materials..</p>
+                
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1454629237/photo/high-angle-view-of-warehouse-with-forklift-pallet-agv-and-cardboard-boxes.webp?b=1&s=170667a&w=0&k=20&c=K3Gc-CwZgpNwJ8-0jgalDY_Qx4Ouo-8IUOMBx71vPxg=">
+                <h3>Wholesale</h3>
+                <p>The wholesaler then adds his value of INR 50 making the total INR 600 (550 + 50).  Like the manufacturer, the wholesaler too can set off this tax amount with the tax that he has already paid for while purchasing the goods from the manufacturer..</p>
+              
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1556742111-a301076d9d18?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJldGFpbHxlbnwwfHwwfHx8MA==">
+                <h3>Retailer</h3>
+                <p>The GST applicable here is INR 65 (10% of 650), but since the retailer has already paid a tax while purchasing the goods, he can set it off. Thus, the final GST incidence for the retailer would be INR 5 (65 – 60)..</p>
+                
+            </div>
+            <div class="box">
+                <img src="https://t3.ftcdn.net/jpg/03/36/20/56/360_F_336205687_IEOiymwQ2Nzbk26TFG4KRFNESdeAEiRN.jpg">
+                <h3>Dual Goods and Services Tax Structure</h3>
+                <p>Only a handful of countries, such as Canada and Brazil, have a dual GST structure.Compared to a unified GST economy where tax is collected by the federal government and then distributed to the states, in a dual system, the federal GST is applied in addition to the state sales tax.</p>
+               
+            </div>
+            <div class="box">
+                <img src="https://st.depositphotos.com/18433260/53723/i/950/depositphotos_537233520-stock-photo-concept-of-taxes-paid-by.jpg">
+                <h3>Critiques of the GST</h3>
+                <p>A GST is generally considered to be a regressive tax, meaning that it takes a relatively larger percentage of income from lower-income households compared to higher-income households.</p>
+                
+            </div>
+           
+
+        </div>
+    </div>
+    <button ondblclick="myFunction()" onclick="onClickFunction()" onmouseover="onMouseOverFunction()">
+    Double click me
+</button>
+
+<br>
+<br>
+<br>
+
+
+
+<div  class="footer">
+<footer>
+<table>
+<tr> 
+<th>LINKS</th>
+<th>CONTACT US</th>
+<th>LOCATION</th>
+<th>REACH US</th>
+</tr>
+<tr>
+<td>About<br>MOuse events<br>Unique calculator<br>form designs<br>applications<br></td>
+<td>Nearby Amrita School of Engineering<br>
+    chennai<br>
+ Email:bussinessentity123@gmail.com<br>
+<img src="https://i.pinimg.com/564x/2a/89/fe/2a89fee1a635745cec680e88efa49bcc.jpg" alt="Avatar" class="avatar">
+<img src="https://i.pinimg.com/564x/d9/73/36/d97336386c1a5a446b39c949f6969df2.jpg"
+alt=Avatar" class="avatar">
+<img src="https://i.pinimg.com/564x/70/da/29/70da29e0cd3e98f2ba4bb67bd0bde726.jpg"
+alt=Avatar" class="avatar">
+<a href="mailto:akhilathirumalaraju@gmail.com"><img src="https://i.pinimg.com/564x/d5/96/65/d596650610d93c05587f4bc6ee39bfe5.jpg"alt="mail" class="avatar" ></a>
+</td><td>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1982712182603!2d77.67573949999999!3d12.8949688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1339d7500cd3%3A0x4b4fbdff03bfee09!2sAmrita%20School%20of%20Engineering!5e0!3m2!1sen!2sin!4v1687786957876!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</td>
+
+
+<td>Lucky<br><i class="fa fa-phone">  +919876543210</i><br>
+
+</tr>
+</table>
+</footer>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business is viewed as an entity separate from its owners, creditors, or other businesses.</title>
+    <style>
+        body {
+            background-image: url('https://t3.ftcdn.net/jpg/04/18/82/10/360_F_418821053_F4NAi5vydeDrZcYglupMynvg1VJKtXaz.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, section {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: white;
+            font-size: 30px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; text-shadow: 0px 0px 5px powderblue;">Business Entity</h1>
+        <p1 id="p1" onmouseover="onMouseOver()" onmouseout="onMouseOut()">Business is viewed as an entity separate from its owners, creditors, or other businesses.</p1>
+    </header>
+
+    <section class="about">
+        <h2>Business Entity</h2>
+        <p>Business entity” means any person ordinarily carrying out any activity relating to industry, commerce or any other business, or profession.
+            Elimination of the cascading tax effect: Under the GST bill, taxes are levied only on the net value-added portion, which eliminates the tax-on-tax regime and, in turn, lowers the cost of goods.
+            GST is a single tax on the supply of goods and services. That means the end consumer will only bear the GST charged by the last dealer in the supply chain. Several economists and experts see this as the most ambitious tax reform since independence. GST will eventually replace all indirect taxes levied on goods and services by the central and state governments and is expected to liberate India of its complex indirect taxation structure.
+            Registration of any business entity under the GST Law implies obtaining a unique number from the concerned tax authorities for the purpose of collecting tax on behalf of the government and to avail Input tax credit for the taxes on his inward supplies.
+        </p>
+    </section>
+
+    <a href="file:///C:/Users/sravani%20tammali/Desktop/UID/registration.html" class="btn">Register</a>
+    <section>
+        <a href="file:///C:/Users/sravani%20tammali/Desktop/UID-ASSIGNMENT-2.html" class="btn" onclick="customGoBack();">Go Back</a>
+    </section>
+    <a href="assignment.html"></a>
+
+    <script>
+        function onMouseOver() {
+            document.getElementById("p1").style.color = "red";
+        }
+
+        function onMouseOut() {
+            document.getElementById("p1").style.color = "white";
+        }
+
+        function customGoBack() {
+            alert("Custom onclick event: You clicked the 'Go Back' button!");
+            history.back();
+        }
+    </script>
+</body>
+</html>
